@@ -18,7 +18,10 @@ Abra `http://localhost:4173`. A aplicação começa com o histórico importado d
 
 ## Cópia e sincronização
 
-Os dados vivem num único ficheiro: `fcom-carro.json`. Em **Dados**, pode exportar/importar esse ficheiro e ligar ao Google Drive. Para a sincronização, crie um OAuth Client ID do tipo **Web application**, ative a Google Drive API e configure as origens autorizadas para `http://localhost:4173` e para o domínio final do GitHub Pages. Não coloque um *client secret* na aplicação.
+Os dados vivem num único ficheiro: `fcom-carro.json`. 
+Em **Dados**, pode exportar/importar esse ficheiro e ligar ao Google Drive. 
+Para a sincronização, crie um OAuth Client ID do tipo **Web application**, ative a Google Drive API e configure as origens autorizadas para `http://localhost:4173` e para o domínio final do GitHub Pages. 
+Não coloque um *client secret* na aplicação.
 
 ## GitHub Pages
 
