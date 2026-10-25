@@ -1,0 +1,22 @@
+.km-month-card {
+  display: grid;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #e1e8e9;
+  border-radius: 12px;
+  padding: 13px;
+}
+
+.km-reading {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 2px 10px;
+  border-top: 1px solid #edf1f1;
+  padding-top: 8px;
+}
+
+.km-reading span { color: #62797e; font-size: .88rem; }
+.km-reading small { grid-column: 1; color: #7a8c90; }
+.km-reading .delete { grid-column: 2; grid-row: 1 / 3; }
+.km-total { color: var(--accent); font-weight: 750; font-size: .9rem; }
