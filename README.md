@@ -8,6 +8,13 @@ PWA *mobile-first* para acompanhar boleias, quilometragem, carregamentos e inter
 - `€/100 km pessoais` usa apenas os quilómetros mensais que não são FCOM.
 - Os km FCOM são calculados pela posição de João Duarte nos ocupantes. As duas distâncias de ida e volta são configuráveis em **Dados**.
 
+## Carregamentos
+
+- **Cartão** permite indicar manualmente o valor pago.
+- **Carregar em casa** calcula o custo a partir da autonomia antes/depois, consumo, perdas, preço de eletricidade e IVA.
+- **Carregar na empresa** usa o mesmo consumo, perdas e IVA de casa, mas aplica o campo **Preço kWh empresa** configurado em **Dados**. O registo conserva a tarifa aplicada, pelo que alterações futuras não mudam o histórico.
+- **Fatura · empresa reembolsa** mantém o registo sem custo pessoal.
+
 ## Executar localmente
 
 ```powershell
